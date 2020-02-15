@@ -1,13 +1,22 @@
 body{
+    background-image: url("images/background.gif");
+    background-size: 150px 150px;
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.container{
     border: 5px solid green;
+    margin: 0 10%;
 }
 .info{
+    background-color: white;
     border: 5px solid red;
 }
 .info > h2{
     border: 5px solid orange;
 }
 .some-data{
+    background-color: #E8FBFB;
     border: 5px solid blue;
 }
 .some-data .date{
