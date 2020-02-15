@@ -1,0 +1,15 @@
+body{
+    border: 5px solid green;
+}
+.info{
+    border: 5px solid red;
+}
+.info > h2{
+    border: 5px solid orange;
+}
+.some-data{
+    border: 5px solid blue;
+}
+.some-data .date{
+    border: 5px solid purple;
+}
